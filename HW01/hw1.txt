@@ -1,0 +1,67 @@
+File: hw1.txt
+Author: Zhengchao Yu 
+Date: September 19, 2014 
+E-Mail: zy3@umbc.edu 
+Section: 4
+Description: 
+This homework will consist of writing out simple algorithms in english, 
+in order to allow you to practice thinking sequentially. 
+Dont wory about computer language when writing: simply provide a list of steps.
+ 
+-------------------------------------------------------------------------------
+You are going to decide if a number is or isnt prime. 
+(A prime is a number that only evenly divisible by itself and one). 
+What series of actions could you take to decide if a number is or isnt prime? 
+-------------------------------------------------------------------------------
+1. Input given number (n). 
+2. Divide number by (n-1). 
+3. Repeat process and stop after dividing the given number by 1. 
+4. If the number is divisible by any number besides 1, then it is not prime.
+
+ 
+------------------------------------------------------------------------------------------
+A palindrome is a word that is the same forward as it is backwards. 
+For example, 'Anna' is a palindrome. 
+(Write down steps you could follow in order to decide if a word is or isn't a palindrome). 
+------------------------------------------------------------------------------------------
+1. Input given word (n)  
+2. Declare a filler number (i) for the number pointing to (n)  
+3. If,the letter (i+1) matches the letter (i-1), return True  
+4. Else, return false, the word is not a palindrome.
+
+ 
+----------------------------------------------------------------------------------
+You have a list of a thousand numbers in front of you. 
+Write down the exact steps you would take to find the highest number in this list.
+----------------------------------------------------------------------------------
+1. Import number list (n)
+2. Designate n1 as a number that the program is processing 
+3. Designate n2 as the highest number so far. 
+4. While n1 is not at the end
+5. Compare n1 to n2 if n1 is greater then change n2 to n1
+4. Move n1 to the next number
+6. Print number list
+
+ 
+---------------------------------------------------------------------------------------------------- 
+You are at a shelf with a thousand books on it. You want to put them in alphabetical order, 
+but the only thing you can do is swap the position of two books that are already next to each other. 
+What steps could you follow in order to put the books in order.  
+----------------------------------------------------------------------------------------------------
+1. Import book list (b) 
+2. Designate b1 as a book that the program is processing alphabetically  
+3. Designate b2 as a book that is being processed
+4. While b1 is not at the end of the list 
+5. Compare b1 to b2 is greater then b2 to b1
+6. Move b1 to the next book 
+7. Go back to the beginning and repeat this process again for the number of books in the shelf
+8. Print book list 
+
+
+-------------------------------------------------------------------
+You are given a number and must find the factorial of this number. 
+-------------------------------------------------------------------
+1. Input given number (n). 
+2. Multiply the given number by (n-1). 
+3. Repeat process and stop after dividing the given number by 1. 
+4. Print factorial solution.

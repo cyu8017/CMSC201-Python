@@ -1,0 +1,6 @@
+english_picasso.txt
+french_picasso.txt
+italian_picasso.txt
+portuguese_picasso.txt
+spanish_picasso.txt
+german_picasso.txt
